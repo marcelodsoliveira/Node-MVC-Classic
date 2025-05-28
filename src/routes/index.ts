@@ -1,6 +1,6 @@
 import { create } from 'domain';
 import express from 'express';
-import { createContactController, deleteContactController, getContactsController } from '../controller/contact';
+import { createContactController, deleteContactController, getContactsController } from '../controllers/contact';
 
 
 const router = express.Router();
